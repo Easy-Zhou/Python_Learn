@@ -28,7 +28,28 @@ print(random.choice(("Tuple","List","Dict")))   #List
 print(random.sample([1,2,3,4,5],3))    #[1, 2, 5]
 #random.sample的函数原型为：random.sample(sequence, k)，从指定序列中随机获取指定长度的片断。sample函数不会修改原有序列。
 
+print(random.uniform(1, 2))  # 指定一个区间返回浮点数
 
+print(random.shuffle([1,2,3,4,5,6]))  # 洗牌的功能,打乱顺序
 
+#############################################验证码demo##################################################
 
+confirm_code = ""
+
+seed_1 = [i for i in range(65,91)]
+seed_2 = [i for i in range(97,123)]
+
+seed_1.extend(seed_2)
+seed_all = seed_1
+# print(seed_all)
+
+for i in range (5):
+    temp = random.randint(0,4)
+    if temp == i:
+        tmp = chr(random.choice(seed_all))
+    else:
+        tmp = str(random.randint(0,9))
+    confirm_code += tmp
+
+print(confirm_code)
 
