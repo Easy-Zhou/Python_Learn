@@ -58,6 +58,7 @@ print(x.tm_year, x.tm_hour)
 # b = x.tm_zone[0]
 a = x.tm_zone.encode('latin-1')
 print(a)
+##############################!!!!!##############################
 import chardet
 
 print(chardet.detect(a))  # 用于判断某个对象的字符编码

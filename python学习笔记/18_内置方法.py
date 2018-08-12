@@ -69,7 +69,7 @@ print(res)
 a = frozenset({1, 2, 3, 4, 5})  # 不可变集合,不能够改变集合内部的元素
 print(a)
 
-print(globals())  # 返回整个本身文件的key-values的列表
+
 
 hash("zhou")  # 生成该对象的哈希数值
 
@@ -78,6 +78,7 @@ b = oct(152)
 print(a, type(a))  # 将数字转成16进制的字符串, bin是二进制,Oct是八进制
 print(b, type(b))  # 将数字转成8进制的字符串
 
+print(globals())  # 返回整个本身文件的key-values的列表
 
 def test():
     local_var = 123
@@ -86,6 +87,7 @@ def test():
 
 test()
 
+__builtins__.print("tett","builtins 内置模块的名字空间")
 a = pow(2, 4)  # 2**4
 print(a)
 a = pow(2, 4, 3)  # pow(2,4) % 3  2**4%3
