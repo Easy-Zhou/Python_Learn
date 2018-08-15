@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25a572a0-d0bf-4ae6-bced-5328b50086a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/python学习笔记/21_7_xml模块.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python学习笔记/OtherFile/xml_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python学习笔记/21_7_xml模块.py" beforeDir="false" afterPath="$PROJECT_DIR$/python学习笔记/21_7_xml模块.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,16 +66,16 @@
         <counts>
           <entry key="dummy" value="15" />
           <entry key="md" value="13" />
-          <entry key="py" value="5468" />
-          <entry key="txt" value="66" />
+          <entry key="py" value="5470" />
+          <entry key="txt" value="67" />
           <entry key="xml" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="13" />
-          <entry key="PLAIN_TEXT" value="81" />
-          <entry key="Python" value="5468" />
+          <entry key="PLAIN_TEXT" value="82" />
+          <entry key="Python" value="5470" />
           <entry key="XML" value="44" />
         </counts>
       </usages-collector>
@@ -129,15 +127,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python学习笔记/21_7_xml模块.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="52" column="10" lean-forward="true" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+            <state relative-caret-position="436">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python学习笔记/OtherFile/newnew.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -210,7 +212,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-39" />
     <option name="y" value="-29" />
     <option name="width" value="1936" />
@@ -235,12 +237,6 @@
               <item name="Python_Learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python_Learn" type="462c0819:PsiDirectoryNode" />
               <item name="python学习笔记" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python_Learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python_Learn" type="462c0819:PsiDirectoryNode" />
-              <item name="python学习笔记" type="462c0819:PsiDirectoryNode" />
-              <item name="OtherFile" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -469,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534175374003</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2018.08.15学习内容">
+      <created>1534348783772</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1534348783773</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -568,7 +571,8 @@
     <MESSAGE value="更新部分内容" />
     <MESSAGE value="2018.08.13学习内容" />
     <MESSAGE value="2018.08.13学习内容2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2018.08.13学习内容2" />
+    <MESSAGE value="2018.08.15学习内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="2018.08.15学习内容" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/try.txt" />
@@ -798,12 +802,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python学习笔记/OtherFile/newnew.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python学习笔记/21_7_xml模块.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="52" column="10" lean-forward="true" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+        <state relative-caret-position="436">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>

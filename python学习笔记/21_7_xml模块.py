@@ -56,7 +56,18 @@ for node in root.iter('year'):
     # 删除属性
     del node.attrib['name']
 
+###########删除节点############
+# 遍历data下的所有country节点
+for country in root.findall('country'):
+    # 获取每一个country节点下rank节点的内容
+    rank = int(country.find('rank').text)
+
+    if rank > 50:
+        # 删除指定country节点
+        root.remove(country)
+
 
 ############ 保存文件 ############
 tree = ET.ElementTree(root)
 tree.write("OtherFile/newnew.xml", encoding='utf-8')
+
