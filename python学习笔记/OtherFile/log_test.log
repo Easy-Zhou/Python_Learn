@@ -1,0 +1,21 @@
+WARNING:root:this is a warning log
+ERROR:root:this is a error log
+CRITICAL:root:this is a error log
+2018-08-16 11:34:38 PM this is a warning log
+2018-08-16 11:34:38 PM this is a error log
+2018-08-16 11:34:38 PM this is a error log
+2018-08-16 11:36:35 PM this is a debug log 10 DEBUG
+2018-08-16 11:36:35 PM this is a info log 20 INFO
+2018-08-16 11:36:35 PM this is a warning log 30 WARNING
+2018-08-16 11:36:35 PM this is a error log 40 ERROR
+2018-08-16 11:36:35 PM this is a error log 50 CRITICAL
+2018-08-16 11:37:20 PM ##10 DEBUG## this is a debug log
+2018-08-16 11:37:20 PM ##20 INFO## this is a info log
+2018-08-16 11:37:20 PM ##30 WARNING## this is a warning log
+2018-08-16 11:37:20 PM ##40 ERROR## this is a error log
+2018-08-16 11:37:20 PM ##50 CRITICAL## this is a error log
+2018-08-16 11:56:59 PM ##10 DEBUG## this is a debug log
+2018-08-16 11:56:59 PM ##20 INFO## this is a info log
+2018-08-16 11:56:59 PM ##30 WARNING## this is a warning log
+2018-08-16 11:56:59 PM ##40 ERROR## this is a error log
+2018-08-16 11:56:59 PM ##50 CRITICAL## this is a error log
