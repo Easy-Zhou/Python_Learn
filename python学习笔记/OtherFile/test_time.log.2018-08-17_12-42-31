@@ -1,0 +1,4 @@
+2018-08-17 12:42:31 PM -test1- ##10 DEBUG line:58 ## this is a debug log
+2018-08-17 12:42:31 PM -test1- ##20 INFO line:59 ## this is a info log
+2018-08-17 12:42:31 PM -test1- ##40 ERROR line:61 ## this is a error log
+2018-08-17 12:42:31 PM -test1- ##50 CRITICAL line:62 ## this is a error log

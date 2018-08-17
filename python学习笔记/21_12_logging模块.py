@@ -9,6 +9,7 @@
 
 
 import logging
+import sys
 
 # 直接输出
 # logging.warning("this is a warning!")
@@ -20,6 +21,8 @@ logging.basicConfig(filename='OtherFile/log_test.log',
                     level=logging.DEBUG,  # level表示只写入与此level相同级别或更高的信息
                     format='%(asctime)s ##%(levelno)s %(levelname)s## %(message)s',
                     datefmt='%Y-%m-%d %I:%M:%S %p')
+                    # stream：用指定的stream创建StreamHandler。可以指定输出到sys.stderr,sys.stdout或者文件，
+                    # 默认为sys.stderr。若列出了filename则不能列出stream
 
 logging.debug("this is a debug log")
 logging.info("this is a info log")
@@ -44,5 +47,4 @@ format参数中可能用到的格式化串：
 %(threadName)s 线程名。可能没有
 %(process)d 进程ID。可能没有
 %(message)s用户输出的消息
-
 '''
