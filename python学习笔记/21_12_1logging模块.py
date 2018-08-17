@@ -6,7 +6,17 @@
 # @IDE     : PyCharm
 # @Description: logging--日志管理
 # 日志级别 : debug >>> info >>> warning >>> error >>> critical
-
+'''
+对应的等级
+CRITICAL = 50
+FATAL = CRITICAL
+ERROR = 40
+WARNING = 30
+WARN = WARNING
+INFO = 20
+DEBUG = 10
+NOTSET = 0
+'''
 
 import logging
 import sys
