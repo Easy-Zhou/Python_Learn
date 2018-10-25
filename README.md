@@ -1,2 +1,2 @@
 # Python_Learn
-Python 学习
+Python 学习笔记
