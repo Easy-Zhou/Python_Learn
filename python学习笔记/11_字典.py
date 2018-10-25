@@ -42,7 +42,7 @@ new_dict = {
     2: 5
 }
 info1.update(new_dict)
-print(info1, "#update 作用就是跟新已有的键值添加没有的键值对")
+print(info1, "#update 作用就是更新已有的键值添加没有的键值对")
 
 # 删除字典元素 del pop popitem三个方法
 print("\n\ndict删除")
