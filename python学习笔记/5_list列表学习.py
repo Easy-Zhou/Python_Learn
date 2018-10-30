@@ -37,7 +37,7 @@ names.pop(0)  # 括号中不填参数则默认删除最后一个值
 print(names)
 print(names.index("第1个元素"))  # 查找元素的下标
 print(names[names.index("第1个元素")])
-print(names.count("第2个元素"))
+print(names.count("第2个元素"),"count")
 names.reverse()  # 反转:将数组反过来
 print("reverse", names)
 names.sort()  # 排序
