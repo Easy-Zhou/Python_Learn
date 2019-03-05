@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25a572a0-d0bf-4ae6-bced-5328b50086a8" name="Default Changelist" comment="2018.08.15学习内容">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python_Learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_Learn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习笔记/5_list列表学习.py" beforeDir="false" afterPath="$PROJECT_DIR$/python学习笔记/5_list列表学习.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习笔记/9_Encode_and_Decode.py" beforeDir="false" afterPath="$PROJECT_DIR$/python学习笔记/9_Encode_and_Decode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python学习笔记/23_面向对象/23_1_面向对象.py" beforeDir="false" afterPath="$PROJECT_DIR$/python学习笔记/23_面向对象/23_1_面向对象.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python学习笔记/4_for循环使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/python学习笔记/4_for循环使用.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,179 +16,103 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Python_Learn$21_5_sys.coverage" NAME="21_5_sys模块 Coverage Results" MODIFIED="1534137626930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
-    <SUITE FILE_PATH="coverage/Python_Learn$19_shelve.coverage" NAME="19_shelve反序列化 Coverage Results" MODIFIED="1534175359619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
-    <SUITE FILE_PATH="coverage/Python_Learn$my_car.coverage" NAME="my_car Coverage Results" MODIFIED="1534733366390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记/23_面向对象" />
-    <SUITE FILE_PATH="coverage/Python_Learn$21_8_xmlXML.coverage" NAME="21_8_xml模块之创建XML文件 Coverage Results" MODIFIED="1534385251949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
-    <SUITE FILE_PATH="coverage/Python_Learn$4_for.coverage" NAME="4_for循环使用 Coverage Results" MODIFIED="1540458517779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
-    <SUITE FILE_PATH="coverage/Python_Learn$21_1_time.coverage" NAME="21_1_time模块 Coverage Results" MODIFIED="1534049858968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
-    <SUITE FILE_PATH="coverage/Python_Learn$23_2_metaclass.coverage" NAME="23_2_metaclass Coverage Results" MODIFIED="1534764637705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记/23_面向对象" />
     <SUITE FILE_PATH="coverage/Python_Learn$21_3_OS.coverage" NAME="21_3_OS模块 Coverage Results" MODIFIED="1534128095658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
-    <SUITE FILE_PATH="coverage/Python_Learn$9_Encode_and_Decode.coverage" NAME="9_Encode_and_Decode Coverage Results" MODIFIED="1540476263676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
-    <SUITE FILE_PATH="coverage/Python_Learn$5_list.coverage" NAME="5_list列表学习 Coverage Results" MODIFIED="1540464527777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
-    <SUITE FILE_PATH="coverage/Python_Learn$21_12_2_logginglogger.coverage" NAME="21_12_2_logging模块置之logger对象 Coverage Results" MODIFIED="1534480966863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
-    <SUITE FILE_PATH="coverage/Python_Learn$pytest_in_14__py.coverage" NAME="pytest in 14_函数.py Coverage Results" MODIFIED="1534054163951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
     <SUITE FILE_PATH="coverage/Python_Learn$21_7_xml.coverage" NAME="21_7_xml模块 Coverage Results" MODIFIED="1534348737187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
-    <SUITE FILE_PATH="coverage/Python_Learn$21_4_paramiko_ssh_.coverage" NAME="21_4_paramiko模块(ssh连接) Coverage Results" MODIFIED="1534058152285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
-    <SUITE FILE_PATH="coverage/Python_Learn$21_10_hashlib.coverage" NAME="21_10_hashlib模块 Coverage Results" MODIFIED="1534390082348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
-    <SUITE FILE_PATH="coverage/Python_Learn$21_11_subprocess.coverage" NAME="21_11_subprocess模块 Coverage Results" MODIFIED="1534400661003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
-    <SUITE FILE_PATH="coverage/Python_Learn$18_.coverage" NAME="18_内置方法 Coverage Results" MODIFIED="1534054618726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
-    <SUITE FILE_PATH="coverage/Python_Learn$car.coverage" NAME="car Coverage Results" MODIFIED="1534733372322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记/23_面向对象" />
-    <SUITE FILE_PATH="coverage/Python_Learn$23_1___1_.coverage" NAME="23_1_面向对象 (1) Coverage Results" MODIFIED="1534755155017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记/23_面向对象" />
-    <SUITE FILE_PATH="coverage/Python_Learn$2_.coverage" NAME="2_多个数据一次性输入 Coverage Results" MODIFIED="1540455413964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
-    <SUITE FILE_PATH="coverage/Python_Learn$pytest_in_18__py.coverage" NAME="pytest in 18_内置方法.py Coverage Results" MODIFIED="1534054425776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
-    <SUITE FILE_PATH="coverage/Python_Learn$21_2_random.coverage" NAME="21_2_random模块 Coverage Results" MODIFIED="1533954249273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
-    <SUITE FILE_PATH="coverage/Python_Learn$21_5_shutil.coverage" NAME="21_5_shutil模块 Coverage Results" MODIFIED="1534164289102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
-    <SUITE FILE_PATH="coverage/Python_Learn$24_.coverage" NAME="24_异常处理 Coverage Results" MODIFIED="1534820271156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
-    <SUITE FILE_PATH="coverage/Python_Learn$23_1_.coverage" NAME="23_1_面向对象 Coverage Results" MODIFIED="1534728729947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
     <SUITE FILE_PATH="coverage/Python_Learn$22_strbytes.coverage" NAME="22_str与bytes之间转换 Coverage Results" MODIFIED="1540474834460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
-    <SUITE FILE_PATH="coverage/Python_Learn$21_9_configparser.coverage" NAME="21_9_configparser模块 Coverage Results" MODIFIED="1534387183399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
+    <SUITE FILE_PATH="coverage/Python_Learn$23_2_metaclass.coverage" NAME="23_2_metaclass Coverage Results" MODIFIED="1534764637705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记/23_面向对象" />
+    <SUITE FILE_PATH="coverage/Python_Learn$23_1___1_.coverage" NAME="23_1_面向对象 (1) Coverage Results" MODIFIED="1534755155017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记/23_面向对象" />
     <SUITE FILE_PATH="coverage/Python_Learn$21_12_logging.coverage" NAME="21_12_logging模块 Coverage Results" MODIFIED="1534477892045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
-    <SUITE FILE_PATH="coverage/Python_Learn$21_13_re.coverage" NAME="21_13_re模块正则 Coverage Results" MODIFIED="1534524757984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
+    <SUITE FILE_PATH="coverage/Python_Learn$4_for.coverage" NAME="4_for循环使用 Coverage Results" MODIFIED="1551625855232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
+    <SUITE FILE_PATH="coverage/Python_Learn$21_5_sys.coverage" NAME="21_5_sys模块 Coverage Results" MODIFIED="1534137626930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
+    <SUITE FILE_PATH="coverage/Python_Learn$2_.coverage" NAME="2_多个数据一次性输入 Coverage Results" MODIFIED="1540455413964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
+    <SUITE FILE_PATH="coverage/Python_Learn$21_2_random.coverage" NAME="21_2_random模块 Coverage Results" MODIFIED="1533954249273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
+    <SUITE FILE_PATH="coverage/Python_Learn$21_8_xmlXML.coverage" NAME="21_8_xml模块之创建XML文件 Coverage Results" MODIFIED="1534385251949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
+    <SUITE FILE_PATH="coverage/Python_Learn$9_Encode_and_Decode.coverage" NAME="9_Encode_and_Decode Coverage Results" MODIFIED="1540476263676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
+    <SUITE FILE_PATH="coverage/Python_Learn$21_10_hashlib.coverage" NAME="21_10_hashlib模块 Coverage Results" MODIFIED="1534390082348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
+    <SUITE FILE_PATH="coverage/Python_Learn$pytest_in_14__py.coverage" NAME="pytest in 14_函数.py Coverage Results" MODIFIED="1534054163951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
+    <SUITE FILE_PATH="coverage/Python_Learn$21_1_time.coverage" NAME="21_1_time模块 Coverage Results" MODIFIED="1534049858968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
+    <SUITE FILE_PATH="coverage/Python_Learn$21_4_paramiko_ssh_.coverage" NAME="21_4_paramiko模块(ssh连接) Coverage Results" MODIFIED="1534058152285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
+    <SUITE FILE_PATH="coverage/Python_Learn$pytest_in_18__py.coverage" NAME="pytest in 18_内置方法.py Coverage Results" MODIFIED="1534054425776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
+    <SUITE FILE_PATH="coverage/Python_Learn$24_.coverage" NAME="24_异常处理 Coverage Results" MODIFIED="1534820271156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
+    <SUITE FILE_PATH="coverage/Python_Learn$my_car.coverage" NAME="my_car Coverage Results" MODIFIED="1534733366390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记/23_面向对象" />
+    <SUITE FILE_PATH="coverage/Python_Learn$18_.coverage" NAME="18_内置方法 Coverage Results" MODIFIED="1534054618726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
+    <SUITE FILE_PATH="coverage/Python_Learn$23_1_.coverage" NAME="23_1_面向对象 Coverage Results" MODIFIED="1534728729947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
+    <SUITE FILE_PATH="coverage/Python_Learn$car.coverage" NAME="car Coverage Results" MODIFIED="1534733372322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记/23_面向对象" />
+    <SUITE FILE_PATH="coverage/Python_Learn$21_9_configparser.coverage" NAME="21_9_configparser模块 Coverage Results" MODIFIED="1534387183399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
+    <SUITE FILE_PATH="coverage/Python_Learn$21_5_shutil.coverage" NAME="21_5_shutil模块 Coverage Results" MODIFIED="1534164289102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
+    <SUITE FILE_PATH="coverage/Python_Learn$19_shelve.coverage" NAME="19_shelve反序列化 Coverage Results" MODIFIED="1534175359619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
     <SUITE FILE_PATH="coverage/Python_Learn$23_3_.coverage" NAME="23_3_反射 Coverage Results" MODIFIED="1534780948601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记/23_面向对象" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="657383505">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="19" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.11" value="4" />
-          <entry key="project.open.time.12" value="2" />
-          <entry key="project.open.time.13" value="7" />
-          <entry key="project.open.time.14" value="2" />
-          <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="21" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="22_str与bytes之间转换" value="1" />
-          <entry key="bak" value="1" />
-          <entry key="dat" value="1" />
-          <entry key="dir" value="1" />
-          <entry key="html" value="1" />
-          <entry key="ini" value="3" />
-          <entry key="lastfailed" value="1" />
-          <entry key="log" value="4" />
-          <entry key="md" value="4" />
-          <entry key="nodeids" value="1" />
-          <entry key="py" value="74" />
-          <entry key="txt" value="2" />
-          <entry key="xml" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="HTML" value="1" />
-          <entry key="Ini" value="3" />
-          <entry key="Markdown" value="4" />
-          <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Python" value="75" />
-          <entry key="XML" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="41" />
-          <entry key="ini" value="241" />
-          <entry key="md" value="13" />
-          <entry key="py" value="15118" />
-          <entry key="txt" value="67" />
-          <entry key="xml" value="52" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Ini" value="241" />
-          <entry key="Markdown" value="13" />
-          <entry key="PLAIN_TEXT" value="108" />
-          <entry key="Python" value="15118" />
-          <entry key="XML" value="52" />
-        </counts>
-      </usages-collector>
-    </session>
+    <SUITE FILE_PATH="coverage/Python_Learn$5_list.coverage" NAME="5_list列表学习 Coverage Results" MODIFIED="1540464527777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
+    <SUITE FILE_PATH="coverage/Python_Learn$21_11_subprocess.coverage" NAME="21_11_subprocess模块 Coverage Results" MODIFIED="1534400661003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
+    <SUITE FILE_PATH="coverage/Python_Learn$21_13_re.coverage" NAME="21_13_re模块正则 Coverage Results" MODIFIED="1534524757984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
+    <SUITE FILE_PATH="coverage/Python_Learn$21_12_2_logginglogger.coverage" NAME="21_12_2_logging模块置之logger对象 Coverage Results" MODIFIED="1534480966863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python学习笔记" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python学习笔记/2_多个数据一次性输入.py">
+        <entry file="file://$PROJECT_DIR$/python学习笔记/5_list列表学习.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1749">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python学习笔记/3_ifelse分支结构.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python学习笔记/4_for循环使用.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+            <state relative-caret-position="398">
+              <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python学习笔记/5_list列表学习.py">
+        <entry file="file://$PROJECT_DIR$/python学习笔记/23_面向对象/23_1_面向对象.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+            <state relative-caret-position="486">
+              <caret line="48" column="76" selection-start-line="48" selection-start-column="76" selection-end-line="48" selection-end-column="76" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python学习笔记/6_tuple元组使用.py">
+        <entry file="file://$PROJECT_DIR$/python学习笔记/23_面向对象/23_2_metaclass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            <state relative-caret-position="-49">
+              <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python学习笔记/7_模块初识.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python学习笔记/8_Getpass模块使用.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python学习笔记/22_str与bytes之间转换.py">
+        <entry file="file://$PROJECT_DIR$/python学习笔记/23_面向对象/23_3_反射.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="726">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python学习笔记/index.html">
+        <entry file="file://$PROJECT_DIR$/python学习笔记/23_面向对象/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python学习笔记/23_面向对象/car.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+            <state relative-caret-position="1408">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python学习笔记/9_Encode_and_Decode.py">
+        <entry file="file://$PROJECT_DIR$/python学习笔记/23_面向对象/my_car.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+            <state relative-caret-position="330">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python学习笔记/4_for循环使用.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -243,23 +170,18 @@
         <option value="$PROJECT_DIR$/python学习笔记/23_1_面向对象.py" />
         <option value="$PROJECT_DIR$/python学习笔记/23_面向对象/car.py" />
         <option value="$PROJECT_DIR$/python学习笔记/23_面向对象/my_car.py" />
-        <option value="$PROJECT_DIR$/python学习笔记/23_面向对象/23_1_面向对象.py" />
         <option value="$PROJECT_DIR$/python学习笔记/23_面向对象/23_2_metaclass.py" />
         <option value="$PROJECT_DIR$/python学习笔记/23_面向对象/23_3_反射.py" />
         <option value="$PROJECT_DIR$/python学习笔记/24_异常处理.py" />
         <option value="$PROJECT_DIR$/python学习笔记/5_list列表学习.py" />
         <option value="$PROJECT_DIR$/python学习笔记/9_Encode_and_Decode.py" />
         <option value="$PROJECT_DIR$/python学习笔记/22_str与bytes之间转换.py" />
+        <option value="$PROJECT_DIR$/python学习笔记/4_for循环使用.py" />
+        <option value="$PROJECT_DIR$/python学习笔记/23_面向对象/23_1_面向对象.py" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -302,6 +224,12 @@
               <item name="Python_Learn" type="462c0819:PsiDirectoryNode" />
               <item name="python学习笔记" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Python_Learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Learn" type="462c0819:PsiDirectoryNode" />
+              <item name="python学习笔记" type="462c0819:PsiDirectoryNode" />
+              <item name="23_面向对象" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -314,7 +242,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -337,7 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.9_Encode_and_Decode">
+  <component name="RunManager" selected="Python.4_for循环使用">
     <configuration name="22_str与bytes之间转换" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -457,10 +385,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.4_for循环使用" />
         <item itemvalue="Python.9_Encode_and_Decode" />
         <item itemvalue="Python.22_str与bytes之间转换" />
         <item itemvalue="Python.5_list列表学习" />
-        <item itemvalue="Python.4_for循环使用" />
         <item itemvalue="Python.2_多个数据一次性输入" />
       </list>
     </recent_temporary>
@@ -475,6 +403,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533874627384</updated>
+      <workItem from="1551232376635" duration="2283000" />
+      <workItem from="1551623119099" duration="2108000" />
     </task>
     <task id="LOCAL-00001" summary="time 和 random 模块学习">
       <created>1533915142054</created>
@@ -550,16 +480,19 @@
       <configuration name="pytest in 18_内置方法.py" configurationId="tests" />
     </history-entry>
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4391000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16684435" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16986156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.20412596" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.20353982" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3441911" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -607,9 +540,20 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="time 和 random 模块学习" />
@@ -621,16 +565,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="2018.08.15学习内容" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python学习笔记/19_4_pickle反序列化.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python学习笔记/19_3_pickle序列化.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python学习笔记/19_5_shelve序列化.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -703,13 +637,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Application/Anaconda3/Lib/configparser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="678" column="33" lean-forward="true" selection-start-line="678" selection-start-column="33" selection-end-line="678" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Application/Anaconda3/Lib/configparser.py" />
     <entry file="file://$PROJECT_DIR$/python学习笔记/OtherFile/conf_3.ini">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -764,34 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python学习笔记/23_面向对象/23_1_面向对象.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3333">
-          <caret line="101" column="32" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python学习笔记/23_面向对象/23_2_metaclass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1221">
-          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python学习笔记/23_面向对象/car.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2112">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python学习笔记/23_面向对象/23_3_反射.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1089">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python学习笔记/24_异常处理.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1155">
@@ -830,13 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python学习笔记/23_面向对象/my_car.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python学习笔记/OtherFile/log_test.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -844,13 +737,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Application/Anaconda3/Lib/logging/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="284" selection-start-line="284" selection-end-line="284" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Application/Anaconda3/Lib/logging/__init__.py" />
     <entry file="file://$PROJECT_DIR$/python学习笔记/OtherFile/conf_2.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -858,46 +745,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Application/Anaconda3/Lib/ntpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6501">
-          <caret line="210" selection-start-line="210" selection-end-line="210" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Application/Anaconda3/Lib/ntpath.py" />
     <entry file="file://$PROJECT_DIR$/python学习笔记/0_Test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-86" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python学习笔记/1_字符串拼接及输出方法等.py">
+    <entry file="file://$PROJECT_DIR$/python学习笔记/6_tuple元组使用.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" selection-end-column="53" />
+        <state relative-caret-position="66">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python学习笔记/2_多个数据一次性输入.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1749">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="489">
+          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python学习笔记/3_ifelse分支结构.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python学习笔记/4_for循环使用.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        <state>
+          <caret selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python学习笔记/6_tuple元组使用.py">
+    <entry file="file://$PROJECT_DIR$/python学习笔记/1_字符串拼接及输出方法等.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        <state relative-caret-position="137">
+          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -909,29 +787,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python学习笔记/22_str与bytes之间转换.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
+        <state relative-caret-position="484">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python学习笔记/9_Encode_and_Decode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python学习笔记/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
+        <state relative-caret-position="22">
           <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python学习笔记/9_Encode_and_Decode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python学习笔记/.pytest_cache/v/cache/lastfailed">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python学习笔记/4_for循环使用.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python学习笔记/5_list列表学习.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+        <state relative-caret-position="398">
+          <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python学习笔记/23_面向对象/23_2_metaclass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python学习笔记/23_面向对象/23_3_反射.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python学习笔记/23_面向对象/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python学习笔记/23_面向对象/car.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1408">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python学习笔记/23_面向对象/my_car.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python学习笔记/23_面向对象/23_1_面向对象.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="48" column="76" selection-start-line="48" selection-start-column="76" selection-end-line="48" selection-end-column="76" />
         </state>
       </provider>
     </entry>

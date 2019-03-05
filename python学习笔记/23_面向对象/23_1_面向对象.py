@@ -45,6 +45,9 @@ class People():  # py2.7中父类要在括号内指定object
         self.name = name
         self.age = age
 
+    def __str__(self):
+        return "这是一个people类对象的实例"+self.name  # 用来在print的时候显示此内容，而不是默认的一串内存地址
+
     def self_introduce(self):
         print("my name is %s I'm %d years old" % (self.name, self.age))
 
@@ -53,6 +56,11 @@ class People():  # py2.7中父类要在括号内指定object
 
     def sleep(self):
         print("%s is sleeping" % self.name)
+
+
+obj = People("zhou",18)
+print("打印类的对象")
+print(obj)
 
 
 class Man(People):  # 这是继承了People类,这是单继承,多继承用逗号分隔开多个继承的类

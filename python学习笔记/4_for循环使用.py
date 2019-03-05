@@ -23,7 +23,7 @@
 """
 
 myList = ["one", "two", "three", "four", "five"]
-commodity = (("iphoneX", 9699), ("Mac Pro", 12000), ("TADA68 Pro", 600), ("raspberry pie", 360))
+commodity = (("iphoneX", 9699), ("MacBook Pro", 12000), ("TADA68 Pro", 600), ("raspberry pie", 360))
 print("1")
 for i in myList:
     print(i)
