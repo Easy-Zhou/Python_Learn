@@ -9,7 +9,7 @@
 import re
 
 s = 'abc123d'
-# re.match 从头开始搜索,匹配则返回一个对象,需要用group才能取出值
+# re.match 从头开始匹配,匹配则返回一个对象,需要用group才能取出值
 match_res = re.match('[0-9]', s)
 if match_res:
     print(match_res.group())
@@ -106,7 +106,7 @@ print(res.groups())
 \Z 匹配字符结尾,相当于$
 \d 匹配数字0-9
 \D 匹配非数字
-\w 匹配[a-zA-Z0-9]
+\w 匹配[a-zA-Z0-9] 
 \W 匹配非[a-zA-Z0-9]
 \s  匹配空白字符 \t \n \r
 '''

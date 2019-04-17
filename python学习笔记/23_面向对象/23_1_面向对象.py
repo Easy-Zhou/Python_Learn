@@ -83,7 +83,8 @@ class Man(People):  # 这是继承了People类,这是单继承,多继承用逗�
 
     @staticmethod  # 静态方法
     def born():
-        print("a child born")
+
+        print("a child born",)
 
     @classmethod  # 类方法
     def population(cls):
@@ -99,17 +100,48 @@ class Man(People):  # 这是继承了People类,这是单继承,多继承用逗�
         然后提供set和get方法（接口）去设置和获取，在python中通过property方法可以实现
         """
         return "eet"
-    @property
-    def get_money(self):
+    @property  # 相当于设置getter
+    def money(self):
         return self.__money
+
+    @money.setter # 设置setter
+    def money(self,money):
+        self.__money = money
 
 m1 = Man("Bob", 22, "Male")
 m1.sleep()
 
+
 print(Man.test_property)  # 调用property方法
 print(Man.test_property.__doc__)
-print(m1.get_money)
+m1.money = 10.2 # set
+print(m1.money) # get
 
+
+# get and set 方法例子
+
+class get_set_test:
+    """
+
+    """
+    def __init__(self,name,age):
+        self.__name = name
+        self.__age = age
+
+    @property
+    def name(self):
+        return self.__name
+
+    @name.setter
+    def name(self,name):
+        self.__name = name
+
+
+te = get_set_test("tt",12)
+
+print(te.name)
+te.name = "ps"
+print(te.name)
 
 '''
 像g1.life_value之类的属性引用，会先从实例中找life_value然后去类中找，

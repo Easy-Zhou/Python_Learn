@@ -54,5 +54,22 @@ Salary: {3}
 print(info3)
 
 print('\033[5;31;2m这是一个有颜色的输出\033[0m')
-pas = input("请输入用户密码，如果不设置，\033[5;33;40m请回车!\033[0m")
+# pas = input("请输入用户密码，如果不设置，\033[5;33;40m请回车!\033[0m")
 print("end")
+
+temp = """
+十进制:{0:d}
+八进制:{1:o}
+十六进制:{2:x}
+""".format(20,20,20)
+print(temp)
+
+temp = """
+{0:.2f}
+""".format(10)
+print(temp)
+
+print("%3.d" %10)
+print("%.3d" %10)
+print("%.2f" %10)
+

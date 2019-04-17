@@ -51,7 +51,7 @@ print(b, type(b), "#eval 将字符串str当成有效的表达式来求值并返�
 cal = lambda n: n if n < 4 else n - 4
 print(cal(5))
 
-res = filter(lambda n: n > 5, range(10))  # 返回一个迭代器
+res = filter(lambda n: n > 5, range(10))  # 返回一个迭代器 过滤
 for i in res:
     print(i)
 

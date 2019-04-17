@@ -80,7 +80,22 @@ def func7(**kwargs):
 
 
 func7(name="zhou", age=18, sex="Male")
-func7(**{"name": "zhou", "age": 18})  # 相当于 kwargs = {"name": "zhou", "age": 18}
+func7(**{"name": "zhou", "age": 18})  # 相当于 kwargs = {"name": "zhou", "age": 18}  # 参数传递时的序列解包，若是非字典则用的是一个*
+
+
+def demo(a, b, c):
+    print(a + b + c)
+
+
+seq = [1, 2, 3]
+demo(*seq)  # 非字典的序列解包
+dic = {1: 'a', 2: 'b', 3: 'c'}
+demo(*dic)  # 6
+demo(*dic.keys())  # 6
+demo(*dic.values())  # abc
+dic2 = {'a': 1, 'b': 2, 'c': 3}
+demo(*dic2)  # abc
+demo(**dic2)  # 相当于demo(a=1,b=2,c=3)
 
 
 def func8(name, sex="M", **kwargs):
@@ -95,7 +110,6 @@ def func9(name, age=18, *args, **kwargs):  # args 只能接收位置参数
 
 
 func9("zhou", 23, 23, "F", sex="M")
-
 
 # 全局变量不能在函数的中进行修改除非申明global,不建议这么更改
 
@@ -140,7 +154,7 @@ def func(f):
 
 
 bar = func(bar)
-bar()   # 这样就不会修改函数的调用方式了
+bar()  # 这样就不会修改函数的调用方式了
 
 
 # 嵌套函数
@@ -155,3 +169,11 @@ def foo():
 
 
 foo()
+import math
+
+
+def calculateCircle(r):
+    if isinstance(r, (int, float)):
+        print(r ** 2 * math.pi)
+    else:
+        print('input integer or float num')
